@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JEncrypt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JEncrypt/out/artifacts/JEncrypt_jar/JEncrypt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

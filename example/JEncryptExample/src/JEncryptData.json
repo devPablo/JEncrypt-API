@@ -1,0 +1,9 @@
+{
+  "aes": {
+    "secretKey": "770A8A65DA156D24EE2A093277530142",
+    "initVector": "b34afd4a9d7fc1e9"
+  },
+  "md5": {
+    "salt": "0fb09c95"
+  }
+}
