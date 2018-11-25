@@ -14,16 +14,16 @@ public class Main {
 
         // AES
             // with file
-                // JEncryptManager jem = new JEncryptManager(JEncryptType.AES, data);
-                // AES crypto = (AES) jem.getInstance();
-                // String encrypted = crypto.encrypt(message);
+                JEncryptManager jem = new JEncryptManager(JEncryptType.AES, data);
+                AES crypto = (AES) jem.getInstance();
+                String encrypted = crypto.encrypt(message);
 
             // no file
-                JEncryptManager jem = new JEncryptManager(JEncryptType.AES);
-                AES crypto = (AES) jem.getInstance();
-                String secretKey = "770A8A65DA156D24EE2A093277530142";
-                String initVector = "b34afd4a9d7fc1e9";
-                String encrypted = crypto.encrypt(message, secretKey, initVector);
+                // JEncryptManager jem = new JEncryptManager(JEncryptType.AES);
+                // AES crypto = (AES) jem.getInstance();
+                // String secretKey = "770A8A65DA156D24EE2A093277530142";
+                // String initVector = "b34afd4a9d7fc1e9";
+                // String encrypted = crypto.encrypt(message, secretKey, initVector);
 
 
 
@@ -47,12 +47,12 @@ public class Main {
 
 
         // AES output (with file)
-            // String decrypted = crypto.decrypt(encrypted);
-            // System.out.println("Decrypted: " + decrypted);
+            String decrypted = crypto.decrypt(encrypted);
+            System.out.println("Decrypted: " + decrypted);
 
         // AES output (no file)
-            String decrypted = crypto.decrypt(encrypted, secretKey, initVector);
-            System.out.println("Decrypted: " + decrypted);
+            // String decrypted = crypto.decrypt(encrypted, secretKey, initVector);
+            // System.out.println("Decrypted: " + decrypted);
 
 
 
